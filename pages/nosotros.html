@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="../css/pruebacss.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <link rel="icon" type="image/png" href="../images/cocolee-02.png"/>
+    <title>CocoLee-Nosotros</title>
+  </head>
+  <body>
+    <main>
+      <header><!-- Navegador-->
+          <!-- Navegador-->
+      <nav class="nav navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../pages/index.html">
+            <img src="../images/cocolee-02.png" alt="" width="42" height="36">
+          </a>
+          <a class="navbar-brand" href="../pages/index.html">CocoLee</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/cursos.html">Cursos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Tienda
+                <!-- Cuando le coloco el link en href a html tienda me rompe el dropdowm-->
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="../pages/tienda.html">De 0 a 3 años</a></li>
+                  <li><a class="dropdown-item" href="../pages/tienda.html">De 3 a 5 años</a></li>
+                  <li><a class="dropdown-item" href="../pages/tienda.html">Mayores de 5 años</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../pages/tienda.html">Ofertas</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <!-- Formulario de contacto--> 
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Contactanos</button>
+
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Nuevo Mensaje</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <form>
+                            <div class="mb-3">
+                              <label for="recipient-name" class="col-form-label">Nombre y Apellido:</label>
+                              <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="mb-3">
+                              <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Correo electronico:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                              </div>
+                              <label for="message-text" class="col-form-label">Mensaje:</label>
+                              <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                            <div>
+                              <input type="checkbox" class="form-check-input inputcheck" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1" id="checkcontacto">Quiero suscribirme al newsletter</label>
+                          </div>
+                          </form>
+                       </div>
+                       <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                          <button type="button" class="btn btn-success">Enviar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar
+            </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+        <!--FIN NAVEGADOR-->
+      <div>
+        <h2>Nosotros</h2>
+        <section >
+        <div class="row">
+          <div class="column" style="background-color:#aaa;">
+            <h2>Compromiso</h2>
+            <p>Some text..</p>
+          </div>
+          <div class="column" style="background-color:#bbb;">
+            <h2>Dedicacion</h2>
+            <p>Some text..</p>
+          </div>
+          <div class="column" style="background-color:#ccc;">
+            <h2>Alegria</h2>
+            <p>Some text..</p>
+          </div>
+          <div class="column" style="background-color:#ddd;">
+            <h2>Enseñanza</h2>
+            <p>Some text..</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="box a">Coco Lee</div>
+      <div class="box b">Encontranos en las redes</div>
+      <div class="box c">San Nicolas de los Arroyos</div>      
+    </footer>
+  </main>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
+  </html
